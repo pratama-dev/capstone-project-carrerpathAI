@@ -285,8 +285,8 @@ st.markdown(
 # -------------------------------------------------------------------
 @st.cache_data
 def load_datasets():
-    raw = pd.read_csv("cs_students.csv")
-    final = pd.read_csv("career_final_dataset.csv")
+    raw = pd.read_csv("data/cs_students.csv")
+    final = pd.read_csv("data/career_final_dataset.csv")
     return raw, final
 
 
